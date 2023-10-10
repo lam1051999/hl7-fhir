@@ -1,0 +1,4 @@
+psycopg2==2.9.9
+psycopg2-binary==2.9.9
+py4j==0.10.9.5
+pyspark==3.3.0
