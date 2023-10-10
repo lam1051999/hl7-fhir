@@ -1,3 +1,7 @@
+# Data ingestion pipeline for HL7 FHIR data
+
+This demo is for Organization models (https://www.hl7.org/fhir/organization.html), using Spark, Postgres to process and store data, running in local machine.
+
 ## Setup
 
 You will need Apache Spark 3.3.0 installed and $SPARK_HOME configured correctly.
