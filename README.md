@@ -42,6 +42,8 @@ PYTHONPATH="$PWD" python job/file_upload.py \
 ```bash
 PYTHONPATH="$PWD" python job/file_sensor.py --for_action=validation
 
+# Go to job/metadata/validation.json for input of the below command
+
 export PYSPARK_PYTHON=$VIRTUAL_ENV/bin/python && \
 export PYSPARK_DRIVER_PYTHON=$VIRTUAL_ENV/bin/python && \
 spark-submit \
@@ -61,6 +63,8 @@ spark-submit \
 ```bash
 PYTHONPATH="$PWD" python job/file_sensor.py --for_action=ingestion
 
+# Go to job/metadata/ingestion.json for input of the below command
+
 export PYSPARK_PYTHON=$VIRTUAL_ENV/bin/python && \
 export PYSPARK_DRIVER_PYTHON=$VIRTUAL_ENV/bin/python && \
 spark-submit \
@@ -79,6 +83,8 @@ spark-submit \
 
 ```bash
 PYTHONPATH="$PWD" python job/file_sensor.py --for_action=load
+
+# Go to job/metadata/load.json for input of the below command
 
 export PYSPARK_PYTHON=$VIRTUAL_ENV/bin/python && \
 export PYSPARK_DRIVER_PYTHON=$VIRTUAL_ENV/bin/python && \
