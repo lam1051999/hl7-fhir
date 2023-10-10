@@ -4,8 +4,9 @@
 # Start Postgres instance
 docker-compose -f docker/docker-compose.yaml up -d
 ```
-Go to `job/init.sql`, run all the SQL queries to init the metadata
-Go to `common/schema/sql/organization.sql`, run all the SQL queries to init Organization tables
+Go to `job/init.sql`, run all the SQL queries to init the metadata.
+
+Go to `common/schema/sql/organization.sql`, run all the SQL queries to init Organization tables.
 
 ## Install libs
 
