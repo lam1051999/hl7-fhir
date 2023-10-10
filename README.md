@@ -1,5 +1,7 @@
 ## Setup
 
+You will need Apache Spark 3.3.0 installed and $SPARK_HOME configured correctly.
+
 ```bash
 # Start Postgres instance
 docker-compose -f docker/docker-compose.yaml up -d
