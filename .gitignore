@@ -3,3 +3,4 @@ job/metadata
 dist
 dhp_ingestion_tool_common.egg-info
 build
+.idea
